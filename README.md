@@ -1,51 +1,43 @@
-# **Joyce's Personal Website**
+# Eric 的个人网站
 
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=fff)](#)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
 [![Three.js](https://img.shields.io/badge/Three.js-000?logo=threedotjs&logoColor=fff)](#)
 
-A personal portfolio to showcase my career, vibe coding projects, and AI toolkit. Built with Vue 3, Tailwind CSS 4, and Three.js. Bilingual (English / 中文) with Monet-inspired oil painting aesthetics, 3D interactive elements, and smooth scroll-driven animations.
+这是一个用于展示个人经历、项目实践与 AI 工具箱的双语作品集网站。项目基于 Vue 3、Vite、Tailwind CSS 4 和 Three.js 构建，包含滚动驱动动画、3D 交互元素与偏视觉化的内容表达。
 
-> *"In order to **Explore** the AI Native future."*
-
-
-## **💻 Local Installation**
+## 本地运行
 
 ```bash
-cd portfolio
-npm i
+npm install
 npm run dev
 ```
 
+## 网站结构
 
-## **🖼 Site Sections**
+| 模块 | 说明 |
+|------|------|
+| 首页 | 含动态关键词与粒子背景的主视觉区域 |
+| 心理与经历 | 展示学习、实践与相关经历 |
+| 项目实践 | 以复古显示器形式展示项目案例与截图 |
+| AI 工具 | 展示常用 AI / 设计 / 开发工具 |
+| 联系方式 | 邮箱、电话、微信与 GitHub |
 
-| Section | Description |
-|---------|-------------|
-| **Home** | Hero statement with 3D particle background and rotating keywords |
-| **Career** | Timeline of internship experiences at GENSMO, Atom VC, BCG, and Qiaodou Culture |
-| **Vibe Coding** | Three personal projects displayed in a retro 3D rotating monitor — Portfolio, Poker Analysis, and FIRE Simulator |
-| **AI Toolkit** | A bento grid of 10 AI tools I use daily, from Claude Code to Cursor |
-| **Contact** | Email, phone, LinkedIn, Rednote, and GitHub |
+## 技术栈
 
+- 框架：Vue 3 + Vite 7
+- 样式：Tailwind CSS 4
+- 3D / 动效：Three.js + 自定义动画逻辑
+- 国际化：自定义中英文切换
+- 部署：GitHub Pages + GitHub Actions
 
-## **🛠 Tech Stack**
+## 致谢
 
-- **Framework**: Vue 3 + Vite 7
-- **Styling**: Tailwind CSS 4
-- **3D**: Three.js (particle background, retro monitor cube)
-- **i18n**: Custom bilingual system (EN / 中文)
-- **Animation**: Custom scroll-driven animation engine (`src/services`)
-- **Deployment**: GitHub Pages
+本项目基于开源作品集项目 [Cyprien Jaquier / portfolio](https://github.com/Cyprien-png/portfolio) 继续修改与延展，在此表示感谢。
 
+## 联系方式
 
-## **🙏 Acknowledgements**
-
-This project is built on the open-source portfolio by [**Cyprien Jaquier**](https://github.com/Cyprien-png/portfolio) ([jaquier.dev](https://jaquier.dev)). Thanks for the beautiful foundation.
-
-
-## **📬 Contact**
-
-- Email: shaojinchen0593@gmail.com
-- LinkedIn: [Shaojin Chen](https://www.linkedin.com/in/shaojin-chen-5a6192321)
-- GitHub: [Sanyuexi-JoyceChen](https://github.com/Sanyuexi-JoyceChen)
+- 邮箱：hz_eric@qq.com
+- 电话：+86 13306525599
+- 微信：wehadaday
+- GitHub：https://github.com/Chinaduanyun
