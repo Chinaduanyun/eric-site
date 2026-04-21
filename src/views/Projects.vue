@@ -17,8 +17,20 @@ const { isOpen, toggle, openIndex } = useSingleToggle()
 const frameRef = ref()
 const containerRef = ref();
 
+const preloadImage = (src) => {
+    if (!src) return;
+    const image = new Image();
+    image.src = src;
+}
+
 onMounted(() => {
     containerRef.value = frameRef.value.sectionRef;
+
+    projects.value.forEach((project) => {
+        preloadImage(project.background);
+        preloadImage(project.hoverImage);
+        project.images.forEach(preloadImage);
+    });
 })
 </script>
 
