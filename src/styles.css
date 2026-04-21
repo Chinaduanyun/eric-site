@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ledger&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-rubik: "Rubik Mono One", monospace;
+  --font-ledger: "Ledger", serif;
+  --color-red-custom: #DE2E2E;
+}
+
+@layer utilities {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+
+  .pause {
+    animation-play-state: paused !important;
+  }
+
+  .parallax {
+    pointer-events: none;
+  }
+
+  .filter {
+    @apply before:content-[''] before:absolute before:inset-0 before:shadow-[inset_0_0_8px_1px_rgba(255,255,255,0.3)];
+  }
+}
